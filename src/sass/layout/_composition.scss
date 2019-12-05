@@ -1,0 +1,65 @@
+#composition {
+  padding: 100px 0 80px;
+  background: linear-gradient(246.25deg, $primary-200 1.41%, $primary 100%);
+
+  .section-title {
+    margin-bottom: 50px;
+  }
+
+  .composition-item {
+    min-height: 180px;
+    padding: 15px 0;
+    margin-bottom: 40px;
+
+    @media (min-width: map_get($grid-breakpoints, sm)) {
+      display: flex;
+      align-items: center;
+    }
+
+    &__image {
+      @extend %img;
+      width: 180px;
+      height: 180px;
+      margin: 0 auto 15px;
+      border-radius: 5px;
+
+      @media (min-width: map_get($grid-breakpoints, sm)) {
+        position: absolute;
+        top: 0;
+        left: 30px;
+        margin: 0;
+      }
+    }
+
+    &__description {
+      padding: 20px 30px;
+      background: $primary;
+      color: #fff;
+
+      @media (min-width: map_get($grid-breakpoints, sm)) {
+        padding: 20px 30px 20px 230px;
+      }
+
+      p {
+        margin-bottom: 10px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .composition-description {
+    margin-bottom: 30px;
+    padding: 20px 0 0;
+    border-top: 1px solid rgba(#fff, .8);
+    text-align: center;
+    color: #fff;
+
+    @media (min-width: map_get($grid-breakpoints, sm)) {
+      padding: 20px 30px 0;
+    }
+  }
+}
+

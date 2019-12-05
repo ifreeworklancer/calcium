@@ -1,0 +1,37 @@
+#warning {
+  background: $gray;
+  padding: 30px 0;
+  overflow: visible;
+
+  .warning-row {
+    position: relative;
+
+    @media (min-width: map_get($grid-breakpoints, sm)) {
+      padding-left: 130px;
+    }
+  }
+
+  .warning-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 95px;
+
+    @media (min-width: map_get($grid-breakpoints, sm)) {
+      position: absolute;
+      top: -70px;
+      left: 0;
+      margin: 0;
+    }
+  }
+  
+  .price {
+    color: #fff;
+  }
+
+  .warning-description {
+    color: #fff;
+    text-align: center;
+    max-width: 300px;
+    font-family: $headings-font-family;
+  }
+}

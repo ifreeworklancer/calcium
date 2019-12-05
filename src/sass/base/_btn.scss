@@ -1,0 +1,67 @@
+.btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  font-family: $headings-font-family;
+  font-size: .875rem;
+  text-transform: uppercase;
+  transition: .5s;
+  z-index: 5;
+
+  &-secondary {
+
+    svg {
+      margin-right: 10px;
+      fill: #fff;
+    }
+  }
+
+  &-outline-primary {
+    background: #fff;
+  }
+
+  &-icon {
+    justify-content: space-between;
+
+    .icon {
+      margin-left: 15px;
+      padding: 5px 0 5px 20px;
+      border-left: 1px solid #D1E7D8;
+
+      svg {
+        margin-bottom: 5px;
+        fill: $secondary;
+        transition: .5s;
+
+        @media (min-width: map_get($grid-breakpoints, md)) {
+          margin-right: 12px;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &:hover {
+
+      .btn__description {
+        color: #fff;
+      }
+
+      .icon {
+        svg {
+          fill: #fff;
+        }
+      }
+    }
+  }
+
+  &__description {
+    font-size: 1rem;
+    justify-content: space-between;
+    font-family: $font-family-base;
+    text-transform: none;
+    color: $body-color;
+    z-index: 5;
+  }
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Etelka Light Pro';
+    src: url('EtelkaLightPro.eot');
+    src: url('EtelkaLightPro.eot?#iefix') format('embedded-opentype'),
+        url('EtelkaLightPro.woff2') format('woff2'),
+        url('EtelkaLightPro.woff') format('woff'),
+        url('EtelkaLightPro.ttf') format('truetype'),
+        url('EtelkaLightPro.svg#EtelkaLightPro') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Etelka Medium Pro';
+    src: url('EtelkaMediumPro-Bold.eot');
+    src: url('EtelkaMediumPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EtelkaMediumPro-Bold.woff2') format('woff2'),
+        url('EtelkaMediumPro-Bold.woff') format('woff'),
+        url('EtelkaMediumPro-Bold.ttf') format('truetype'),
+        url('EtelkaMediumPro-Bold.svg#EtelkaMediumPro-Bold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

@@ -1,0 +1,42 @@
+#recommendation {
+  padding: 60px 0;
+
+  @media (min-width: map_get($grid-breakpoints, lg)) {
+    padding: 100px 0;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 45%;
+    width: 100px;
+    height: 200px;
+    background: url('../images/icons/decor-circle-light-vertical.png') 50% 50% /cover no-repeat;
+    z-index: -2;
+  }
+
+  .recommendation-item {
+
+    &__title {
+      margin-bottom: 25px;
+    }
+
+    &__description {
+      margin-bottom: 30px;
+
+      p {
+        margin-bottom: 15px;
+      }
+
+      ul {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .recommendation-image {
+    margin-bottom: -100px;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+#intro {
+  padding: 70px 0;
+  background: url('../images/bg/intro-bg.png') 50% 50% /cover no-repeat;
+
+  .intro-image {
+    max-width: 100%;
+  }
+
+  .intro-item {
+    position: relative;
+    z-index: 5;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      right: 0;
+      width: 200px;
+      height: 100px;
+      background: url('../images/icons/decor-circle-light.png') 50% 50% /cover no-repeat;
+      z-index: -2;
+    }
+  }
+}
