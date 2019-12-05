@@ -8,6 +8,8 @@ $btn_order = 'Замовити препарат';
 $btn_instruction = 'Інструкція по застосуванню';
 $btn_certificate = 'Сертифікат якості';
 
+$btn_instruction_link = '../../documents/instruction.txt';
+
 $instruction = 'Інструкція';
 $certificate = 'Сертифікат';
 

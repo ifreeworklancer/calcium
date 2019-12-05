@@ -10,7 +10,8 @@
                     <div class="recommendation-item__description">
                         <?= $recommendation['description']; ?>
                     </div>
-                    <a href="#" class="btn btn-outline-primary btn-icon d-flex w-100">
+                    <a href="<?= $btn_instruction_link; ?>" download
+                       class="btn btn-outline-primary btn-icon d-flex w-100">
                         <div class="btn__description">
                             <?= $btn_instruction; ?>
                         </div>
@@ -24,7 +25,8 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="<?= $recommendation['image']; ?>" alt="recommendation" class="recommendation-image d-none d-lg-block">
+                <img src="<?= $recommendation['image']; ?>" alt="recommendation"
+                     class="recommendation-image d-none d-lg-block">
             </div>
         </div>
     </div>

@@ -36,8 +36,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-lg-6 mb-4 mb-lg-0">
-                <a href="#" class="btn btn-outline-primary btn-icon d-flex w-100 intro-btn-icon">
+            <div class="col-md-8 col-lg-6">
+                <a href="<?= $btn_instruction_link; ?>" download
+                   class="btn btn-outline-primary btn-icon d-flex w-100 intro-btn-icon">
                     <div class="btn__description">
                         <?= $btn_instruction; ?>
                     </div>
@@ -46,19 +47,6 @@
                             <use xlink:href="#document-icon"></use>
                         </svg>
                         <?= $instruction; ?>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-8 col-lg-6">
-                <a href="#" class="btn btn-outline-primary btn-icon d-flex w-100 intro-btn-icon">
-                    <div class="btn__description">
-                        <?= $btn_certificate; ?>
-                    </div>
-                    <div class="icon">
-                        <svg width="23" height="23">
-                            <use xlink:href="#certificate-icon"></use>
-                        </svg>
-                        <?= $certificate; ?>
                     </div>
                 </a>
             </div>
